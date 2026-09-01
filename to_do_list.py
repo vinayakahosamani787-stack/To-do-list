@@ -22,7 +22,7 @@ while True:
     elif choice==3:
         print(f"Tasks:{tasks}")
         try:
-            i=int(input("Enter task index to complete: "))
+            i=int(input("Enter the task index to complete: "))
         except ValueError:
             print("Enter valid index")
             continue
@@ -39,13 +39,13 @@ while True:
     elif choice==4:
         print(f"Tasks:{tasks}")
         try:
-            rem=int(input("Enter index of task to remove: "))
+            rem=int(input("Enter the index of task to remove: "))
         except ValueError:
             print("Enter valid index")
             continue
         if 0<=rem<len(tasks):
             tasks.pop(rem)
-            print(f"After Task deleted:{tasks}")
+            print(f"After the Task deleted:{tasks}")
             continue
         else:
             print("Invalid index")
