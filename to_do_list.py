@@ -1,6 +1,6 @@
 print("<<<To-Do-List>>>")
 def menu():
-    print("1. Add Task\n2. View Task\n3. Complete Task\n4. Delete Task\n5. Exit")
+    print("1. Add Task\n2. View the Task\n3. Complete the Task\n4. Delete Task\n5. Exit")
 tasks=[]
 while True:
     menu()
